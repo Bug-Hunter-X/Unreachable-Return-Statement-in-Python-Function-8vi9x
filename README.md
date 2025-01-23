@@ -1,0 +1,3 @@
+This repository contains a simple Python function demonstrating an uncommon coding error. The function `function_with_uncommon_error` contains multiple return statements, however, due to the order of the conditional statements, one of the return statements is unreachable. This can result in an exception if the conditions are met in a specific order and not properly checked.
+
+The `bug.py` file showcases the buggy code and its unexpected behavior. The solution is provided in `bugSolution.py`, showcasing a corrected function with properly ordered checks.
